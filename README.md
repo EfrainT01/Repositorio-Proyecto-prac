@@ -7,4 +7,4 @@ informacion adicional en 2026
 
 comit desde GitHub-2
 
-probando el comando 2026
+probando el comando git fetch oringin
