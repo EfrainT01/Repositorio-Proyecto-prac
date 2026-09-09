@@ -1,62 +1,41 @@
+
+---
+
 name: "🐛 Bug Report"
-description: "Reportar un error para ayudarnos a mejorar el proyecto."
+about: "Reportar un error para ayudarnos a mejorar el proyecto."
 title: "[BUG] - Descripción corta del error"
-labels:
-  - bug
-assignees: []
+labels: bug
+assignees: ""
 
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ## 🐛 Bug Report
+---
 
-  - type: textarea
-    id: descripcion
-    attributes:
-      label: Descripción
-      description: Describe claramente el error que has encontrado.
-      placeholder: Explica el problema...
-    validations:
-      required: true
+## 🐛 Bug Report
 
-  - type: textarea
-    id: pasos
-    attributes:
-      label: Pasos para reproducir
-      placeholder: |
-        1. Ir a '...'
-        2. Hacer clic en '...'
-        3. Realizar la acción '...'
-        4. Aparece el error
-    validations:
-      required: true
+### Descripción
 
-  - type: textarea
-    id: esperado
-    attributes:
-      label: Comportamiento esperado
-      description: Describe lo que esperabas que ocurriera.
-    validations:
-      required: true
+Describe claramente el error que has encontrado. Incluye detalles sobre cómo se presenta el problema.
 
-  - type: textarea
-    id: capturas
-    attributes:
-      label: Capturas de pantalla o registros
-      description: Agrega imágenes o logs si es posible.
+### Pasos para reproducir
 
-  - type: textarea
-    id: entorno
-    attributes:
-      label: Entorno
-      placeholder: |
-        Sistema operativo: Windows 11
-        Navegador: Chrome 140
-        Versión del proyecto: 1.0.0
+1. Ir a '...'
+2. Hacer clic en '...'
+3. Describir cualquier otra acción hasta que ocurra el problema.
+4. Error que aparece: '...'
 
-  - type: textarea
-    id: adicional
-    attributes:
-      label: Información adicional
-      description: Cualquier otra información relevante.
+### Comportamiento esperado
+
+Describe lo que esperabas que ocurriera al realizar los pasos anteriores.
+
+### Capturas de pantalla o registros
+
+Si es posible, añade capturas de pantalla o registros de errores.
+
+### Entorno
+
+- Sistema operativo: [p. ej., Windows 10, macOS Catalina]
+- Navegador y versión: [p. ej., Chrome 87, Safari 14]
+- Versión del proyecto: [p. ej., 1.0.0]
+
+### Información adicional
+
+Cualquier otra información relevante. 2026
